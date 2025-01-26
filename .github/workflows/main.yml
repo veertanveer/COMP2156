@@ -1,0 +1,15 @@
+name: CI Workflow  # The name of your workflow
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+
+    steps:
+      - uses: actions/checkout@v3  # Check out your repository code
+      - name: Run a command
+        run: echo "Hello, GitHub Actions!"  # Example step to print a message
