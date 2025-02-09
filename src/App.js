@@ -12,12 +12,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Student ID: 101486671</h1>
-      <h1>Student Name: Veer Tanveer</h1>
+      <h1>Studen ID: 101486671</h1>
+      <h1>Studen ID: Veer Tanveer</h1>
       <h1>Student Information System</h1>
       <h5>Powered By: moxDroid Labs Inc. || DevOps</h5>
       <StudentForm addStudent={addStudent} />
-      Developerd By: Veer Tanveer
+      Developerd By: Pritesh Patel
       <StudentList students={students} />
     </div>
   );
