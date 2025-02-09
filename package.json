@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/veertanveer/COMP2156/issues"
   },
- 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
