@@ -3,7 +3,7 @@ name: Deploy React App
 on:
   push:
     branches:
-      - main 
+      - main  # Change this to your deployment branch if different
 
 jobs:
   build-and-deploy:
@@ -24,3 +24,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+
